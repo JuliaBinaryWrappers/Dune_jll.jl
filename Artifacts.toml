@@ -1,0 +1,18 @@
+[[Dune]]
+arch = "x86_64"
+git-tree-sha1 = "c2b907162d72d13a7ab992fdbd70d3e4c6dff3ec"
+libc = "glibc"
+os = "linux"
+
+    [[Dune.download]]
+    sha256 = "0201070155e2b41e36ca4569470ba9315e48e8044718048f34556e0d36e88082"
+    url = "https://github.com/JuliaBinaryWrappers/Dune_jll.jl/releases/download/Dune-v3.17.1+0/Dune.v3.17.1.x86_64-linux-gnu.tar.gz"
+[[Dune]]
+arch = "x86_64"
+git-tree-sha1 = "e15f23db8d416000d8575269fb0863ae2e932daa"
+libc = "musl"
+os = "linux"
+
+    [[Dune.download]]
+    sha256 = "6f1882ac4367921d898df74be4b21614bdeac95a20f42cab261bd58b782bc931"
+    url = "https://github.com/JuliaBinaryWrappers/Dune_jll.jl/releases/download/Dune-v3.17.1+0/Dune.v3.17.1.x86_64-linux-musl.tar.gz"
